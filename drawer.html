@@ -25,22 +25,27 @@
 
   <!--Navbar Starts-->
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <!--Drawer starts-->
     <button class="btn btn-outline-light" data-toggle="drawer" data-target="#drawer-amazon"><i class="fas  fa-sliders-h"></i>
     </button>
+
     <div class="drawer drawer-left slide" tabindex="-1" role="dialog" aria-labelledby="drawer-demo-title" aria-hidden="true" id="drawer-amazon">
       <div class="drawer-content drawer-content-scrollable" role="document">
           <div class="drawer-header bg-dark text-white">
             <h4 class="drawer-title mx-auto" id="drawer-demo-title"><i class="fas fa-user-circle"></i> Hello, Sign in</h4>
           </div>
           <div class="drawer-body">
-            <p>Drawer Body</p>
-            <button type="button" class="btn btn-secondary btn-block" data-dismiss="drawer" aria-label="Close">
-              Close Button
-            </button>
+            <h6 class="text-muted text-uppercase">Help and setting</h6>
+            <a href="#" class="btn btn-warning btn-sm my-2">Your Account</a>
+            <a href="./login.html" class="btn btn-warning btn-sm my-2">Sign in</a>
           </div>
-          <div class="drawer-footer">Drawer footer</div>
+          <div class="drawer-footer">
+            <button type="button" class="btn btn-secondary btn-block bg-warning close" data-dismiss="drawer" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+          </button></div>
       </div>
     </div>
+    <!--Drawer ends-->
     <a class="navbar-brand pl-2" href="#">
       <img src="./img/amazon_logo_white.png" height="30" width="100" alt="Amazon-logo-white">
     </a>
